@@ -122,13 +122,13 @@ map S :w<CR>
 map <LEADER>rc :e ~/.vim/vimrc<CR>
 
 " Undo operations
-noremap l u
+" noremap l u
 " Undo in Insert mode
-inoremap <C-l> <C-u>
+" inoremap <C-l> <C-u>
 
 " Insert Key
-noremap k i
-noremap K I
+" noremap k i
+" noremap K I
 
 " Copy to system clipboard
 vnoremap Y :w !xclip -i -sel c<CR>
@@ -155,10 +155,10 @@ map <LEADER>o o<Esc>u
 " < n   i >
 "     e
 "     v
-noremap u k
-noremap n h
-noremap e j
-noremap i l
+" noremap u k
+" noremap n h
+" noremap e j
+" noremap i l
 " U/E keys for 5 times u/e (faster navigation)
 noremap U 5k
 noremap E 5j
